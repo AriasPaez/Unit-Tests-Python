@@ -7,14 +7,14 @@
 ```
 
 ### :two: Generate Report
-#### Install coverage
+#### Install requirements
 ```
-    python3 install coverage 
+    pip install -r requirements.txt
 ```
 #### Generate Report by Console
 >Run tests
 ```
-   coverage run test_shopping_cart.py
+   coverage run test_shopping_cart.py -v
 ```
 > Generate report
 ```
